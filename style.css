@@ -20,15 +20,17 @@ body {
 }
 
 #upper #night-light {
-  width: 40px;
-  margin: 8px;
+  width: 35px;
+  height: 35px;
+  margin-top: 8px;
+  margin-left: 8px;
 }
 
 #upper h1 {
   color: white;
   font-size: 28px;
   font-weight: 800;
-  margin: 10px auto 20px;
+  margin: 0 auto 20px;
 }
 
 #upper input {
