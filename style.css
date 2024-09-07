@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+#container {
+  background: #f4f4f4;
+  width: 550px;
+  height: 729px;
+  margin: 150px auto 0;
+}
+
+#upper {
+  display: flex;
+  flex-direction: column;
+  background: #6943ff;
+  height: 285px;
+}
+
+#upper h1 {
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
+  margin: 33px auto;
+}
+
+#upper input {
+  background: #6943ff;
+  width: 117px;
+  height: 83px;
+  margin: 0 auto;
+  border-radius: 5%;
+  border: 2px solid #b295ff;
+  text-align: center;
+  font-size: 58px;
+  line-height: 24px;
+  color: white;
+}
+
+#upper button {
+  font-size: 16px;
+  color: #3d3d3d;
+  width: 117px;
+  height: 42px;
+  margin: 25px auto 0;
+  border-radius: 5px;
+  border: none;
+}
