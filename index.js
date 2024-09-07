@@ -21,3 +21,13 @@ function convert() {
   volumeEl.innerHTML = `${num} liters = ${gallons} gallons | ${num} gallons = ${liters} liters`;
   massEl.innerHTML = `${num} kilos = ${pounds} pounds | ${num} pounds = ${kilos} kilos`;
 }
+
+function nightLight() {
+  let lowerEl = document.querySelector(".lower");
+
+  if (lowerEl.hasAttribute("id")) {
+    lowerEl.removeAttribute("id");
+  } else {
+    lowerEl.setAttribute("id", "lower");
+  }
+}

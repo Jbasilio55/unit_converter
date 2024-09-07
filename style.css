@@ -57,14 +57,15 @@ body {
   border: none;
 }
 
-#lower {
+.lower {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #353535;
+  padding-bottom: 20px;
 }
 
-#lower .LVM {
+.lower .LVM {
   justify-content: center;
   text-align: center;
   height: 108px;
@@ -74,17 +75,33 @@ body {
   line-height: 20px;
 }
 
-#lower h2 {
+.lower h2 {
   color: #5a537b;
   font-weight: 500;
   font-size: 20px;
   margin-top: 30px;
 }
 
-#lower #length {
+.lower #length {
   margin-top: 40px;
 }
 
-#lower p {
+.lower p {
   color: #353535;
+}
+
+#lower {
+  background: #1f2937;
+}
+
+#lower .LVM {
+  background: #273549;
+}
+
+#lower h2 {
+  color: #ccc1ff;
+}
+
+#lower p {
+  color: white;
 }
