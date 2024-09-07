@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: black;
+  font-family: "Inter", system-ui;
 }
 
 #container {
@@ -34,6 +35,7 @@ body {
   border: 2px solid #b295ff;
   text-align: center;
   font-size: 58px;
+  font-weight: 800;
   line-height: 24px;
   color: white;
 }
@@ -46,4 +48,34 @@ body {
   margin: 25px auto 0;
   border-radius: 5px;
   border: none;
+}
+
+#lower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #353535;
+}
+
+#lower .LVM {
+  justify-content: center;
+  text-align: center;
+  height: 108px;
+  width: 500px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+#lower h2 {
+  color: #5a537b;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#lower #length {
+  margin-top: 40px;
+}
+
+#lower p {
+  color: #353535;
 }
